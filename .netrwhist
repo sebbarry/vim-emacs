@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/sebastianbarry/Desktop/easyocr'
+let g:netrw_dirhist_9='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/src/pages/testdrive'
+let g:netrw_dirhist_8='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory/filteroptions/sliders'
+let g:netrw_dirhist_7='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory/filteroptions'
+let g:netrw_dirhist_6='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory'
+let g:netrw_dirhist_5='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory/filteroptions'
+let g:netrw_dirhist_4='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/request/activeleadcontainers/styles'
+let g:netrw_dirhist_3='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/request/activeleadcontainers'
+let g:netrw_dirhist_2='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/request/activeleadcontainers/styles'
+let g:netrw_dirhist_1='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/request/activeleadcontainers'
