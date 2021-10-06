@@ -57,6 +57,7 @@ filetype plugin indent on    " required
 call vundle#begin()
   Plugin 'preservim/nerdtree'
   Plugin 'arcticicestudio/nord-vim'
+  Plugin 'Syntastic'
 call vundle#end()
 
 
@@ -77,12 +78,17 @@ call vundle#end()
 
 ""let g:gruvbox_contrast_dark = 'dark'
 syntax on
-""colorscheme nord
-colorscheme peachpuff 
-"colorscheme dark 
+""colorscheme gruvbox 
+""colorscheme dark 
+""colorscheme molokai
 set number
 
+set wrap
+set nolist
+set linebreak
 
+
+let g:ycm_global_ycm_extra_conf='/Users/XXX/.vim/bundle/youcompleteme/cpp/.ycm_extra_conf.py'
 
 
 
