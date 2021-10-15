@@ -18,7 +18,7 @@ Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'jremmen/vim-ripgrep'
 Plug 'Valloric/YouCompleteMe'
-
+Plug 'arcticicestudio/nord-vim'
 " Initialize plugin system
 call plug#end()
 
@@ -28,7 +28,9 @@ call plug#end()
 ""klet g:gruvbox_contrast_dark = 'dark'
 syntax on
 set background=dark
-colorscheme gruvbox 
+""colorscheme nord
+colorscheme jellybeans 
+""colorscheme gruvbox 
 ""colorscheme dark 
 ""colorscheme molokai
 set number
