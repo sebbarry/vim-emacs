@@ -29,7 +29,7 @@ call plug#end()
 syntax on
 set background=dark
 ""colorscheme nord
-colorscheme jellybeans 
+colorscheme alienblood 
 ""colorscheme gruvbox 
 ""colorscheme dark 
 ""colorscheme molokai
