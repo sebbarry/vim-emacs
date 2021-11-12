@@ -17,8 +17,8 @@ Plug 'lyuts/vim-rtags'
 Plug 'vim-utils/vim-man'
 Plug 'mbbill/undotree'
 Plug 'jremmen/vim-ripgrep'
-Plug 'Valloric/YouCompleteMe'
-Plug 'arcticicestudio/nord-vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " Initialize plugin system
 call plug#end()
 
@@ -29,8 +29,8 @@ call plug#end()
 syntax on
 set background=dark
 ""colorscheme nord
-colorscheme alienblood 
-""colorscheme gruvbox 
+colorscheme gruvbox 
+colorscheme jellybeans
 ""colorscheme dark 
 ""colorscheme molokai
 set number
@@ -49,7 +49,6 @@ set incsearch
 set nobackup
 set smartcase
 
-set colorcolumn=80
 
 inoremap ( ()<left>
 inoremap [ []<left>
@@ -57,6 +56,7 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 inoremap <expr> ) strpart(getline('.'), col('.')-1, 1) == ")" ? "\<Right>" : ")"
+
 
 
 if executable('rg')
@@ -80,6 +80,7 @@ nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>u :wincmd u<CR>
 nnoremap <leader>pv :wincmd pv<CR>
 nnoremap <leader>ps :Rg<SPACE>
+nmap <leader>pa :FZF<CR> 
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
