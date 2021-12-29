@@ -5,6 +5,7 @@ let g:solarized_termcolors=256
 set termguicolors
 
 
+
 ""a new window: C^W + V
 ""
 
@@ -23,6 +24,7 @@ Plug 'jremmen/vim-ripgrep'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 "Plug 'frazrepo/vim-rainbow'
 " Initialize plugin system
 "
@@ -35,8 +37,8 @@ call plug#end()
 syntax on
 "set background=dark
 ""colorscheme nord
-colorscheme jellybeans
-colorscheme solarized8
+colorscheme darcula 
+"colorscheme solarized8
 ""colorscheme dark 
 ""colorscheme molokai
 set number
@@ -81,6 +83,7 @@ set encoding=utf-8
 let mapleader = " "
 let g:ctrlp_use_caching = 0
 let g:newtrw_banner = 0
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 "let g:rainbow_active = 1
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
