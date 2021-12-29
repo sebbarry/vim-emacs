@@ -1,6 +1,9 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
  
+let g:solarized_termcolors=256
+set termguicolors
+
 
 ""a new window: C^W + V
 ""
@@ -19,7 +22,10 @@ Plug 'mbbill/undotree'
 Plug 'jremmen/vim-ripgrep'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'jiangmiao/auto-pairs'
+"Plug 'frazrepo/vim-rainbow'
 " Initialize plugin system
+"
 call plug#end()
 
 
@@ -27,10 +33,10 @@ call plug#end()
 
 ""klet g:gruvbox_contrast_dark = 'dark'
 syntax on
-set background=dark
+"set background=dark
 ""colorscheme nord
-colorscheme gruvbox 
 colorscheme jellybeans
+colorscheme solarized8
 ""colorscheme dark 
 ""colorscheme molokai
 set number
@@ -50,12 +56,14 @@ set nobackup
 set smartcase
 
 
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
-inoremap <expr> ) strpart(getline('.'), col('.')-1, 1) == ")" ? "\<Right>" : ")"
+
+"inoremap ( ()<Esc>i
+"inoremap { {}<Esc>i
+"inoremap {<CR> {<CR>}<Esc>O
+"inoremap [ []<Esc>i
+"inoremap < <><Esc>i
+"inoremap ' ''<Esc>i
+"inoremap " ""<Esc>i
 
 
 
@@ -73,6 +81,7 @@ set encoding=utf-8
 let mapleader = " "
 let g:ctrlp_use_caching = 0
 let g:newtrw_banner = 0
+"let g:rainbow_active = 1
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>

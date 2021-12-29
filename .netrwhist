@@ -1,22 +1,12 @@
 let g:netrw_dirhistmax  =10
-<<<<<<< HEAD
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/Users/sebastianbarry/Documents/Personal/personal_site/personal_site'
-let g:netrw_dirhist_3='/Users/sebastianbarry/.oh-my-zsh'
-let g:netrw_dirhist_2='/Users/sebastianbarry/Documents/Personal/personal_site/front_end/static/front_end/css'
-=======
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/sebastianbarry/Documents/Notes/linux_notes/Security'
+let g:netrw_dirhist_7='/Users/sebastianbarry/Documents/Personal/personal_site/api/mongo_schemas'
+let g:netrw_dirhist_6='/Users/sebastianbarry/Documents/Personal/personal_site/admin_backend/static/admin_backend'
+let g:netrw_dirhist_5='/Users/sebastianbarry/Documents/Personal/personal_site/admin_backend/static'
+let g:netrw_dirhist_4='/Users/sebastianbarry/Documents/Personal/personal_site/admin_backend'
+let g:netrw_dirhist_3='/Users/sebastianbarry/.vim/iterm'
 let g:netrw_dirhist_2='/Users/sebastianbarry/Documents/Personal/portfolio_site/api/blog'
->>>>>>> b266366d85da2c4eef57347add744d7ccc727578
 let g:netrw_dirhist_1='/Users/sebastianbarry/Documents/Notes/linux_notes/Disk_Management'
 let g:netrw_dirhist_0='/Users/sebastianbarry/Desktop/easyocr'
 let g:netrw_dirhist_9='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/src/pages/testdrive'
-let g:netrw_dirhist_8='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory/filteroptions/sliders'
-let g:netrw_dirhist_7='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory/filteroptions'
-let g:netrw_dirhist_6='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory'
-let g:netrw_dirhist_5='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/inventory/filteroptions'
-<<<<<<< HEAD
-=======
-let g:netrw_dirhist_4='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/request/activeleadcontainers/styles'
-let g:netrw_dirhist_3='/Users/sebastianbarry/Documents/MMB/src/zingg_customer_webapp/components/request/activeleadcontainers'
->>>>>>> b266366d85da2c4eef57347add744d7ccc727578
