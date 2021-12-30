@@ -102,6 +102,10 @@ nnoremap <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <leader>gf :YcmCompleter FixIt<CR>
 
 
+
+""""Beggining of coc configuration""""
+
+
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
 set encoding=utf-8
@@ -270,3 +274,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+
+""""End of coc configuration""""
