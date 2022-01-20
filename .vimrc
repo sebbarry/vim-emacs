@@ -25,6 +25,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'relastle/bluewery.vim'
 "Plug 'frazrepo/vim-rainbow'
 " Initialize plugin system
 "
