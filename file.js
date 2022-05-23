@@ -33,4 +33,15 @@ function thisFunction(){
 
 
 
+function *gen() {
+    return {"next": true}
+}
 
+while(gen().next == true) 
+{
+    gen()
+}
+
+function thisFunc() {
+    return true;
+}

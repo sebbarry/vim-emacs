@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/sebastianbarry/Documents/Personal/personal_site/cicd/db/scripts'
 let g:netrw_dirhist_9='/Users/sebastianbarry/.vim'
 let g:netrw_dirhist_8='/Users/sebastianbarry/Documents/Notes/linux_notes/Security'
 let g:netrw_dirhist_7='/Users/sebastianbarry/Documents/Personal/personal_site/api/mongo_schemas'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_4='/Users/sebastianbarry/Documents/Personal/personal_site/ad
 let g:netrw_dirhist_3='/Users/sebastianbarry/.vim/iterm'
 let g:netrw_dirhist_2='/Users/sebastianbarry/Documents/Personal/portfolio_site/api/blog'
 let g:netrw_dirhist_1='/Users/sebastianbarry/Documents/Notes/linux_notes/Disk_Management'
-let g:netrw_dirhist_0='/Users/sebastianbarry/Desktop/easyocr'

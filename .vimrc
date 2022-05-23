@@ -38,8 +38,8 @@ call plug#end()
 syntax on
 "set background=dark
 ""colorscheme nord
-"""colorscheme darcula 
-colorscheme solarized8_high
+colorscheme darcula 
+"""colorscheme solarized8_high
 ""colorscheme dark 
 ""colorscheme molokai
 set number
