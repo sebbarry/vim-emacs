@@ -16,6 +16,7 @@ call plug#begin('~/.vim/autoload/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'frazrepo/vim-rainbow'
 ""Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lyuts/vim-rtags'
 Plug 'vim-utils/vim-man'
@@ -24,8 +25,10 @@ Plug 'jremmen/vim-ripgrep'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+""Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'vim-airline/vim-airline'
 Plug 'relastle/bluewery.vim'
+Plug 'voldikss/vim-floaterm'
 "Plug 'frazrepo/vim-rainbow'
 " Initialize plugin system
 "
@@ -60,15 +63,6 @@ set smartcase
 
 
 
-"inoremap ( ()<Esc>i
-"inoremap { {}<Esc>i
-"inoremap {<CR> {<CR>}<Esc>O
-"inoremap [ []<Esc>i
-"inoremap < <><Esc>i
-"inoremap ' ''<Esc>i
-"inoremap " ""<Esc>i
-
-
 
 if executable('rg')
     let g:rg_derive_root='true'
@@ -101,5 +95,8 @@ nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
 nnoremap <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <leader>gf :YcmCompleter FixIt<CR>
+
+
+nnoremap <leader>pt :FloatermToggle <CR>
 
 
