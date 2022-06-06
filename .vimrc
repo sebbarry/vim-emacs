@@ -97,6 +97,7 @@ nnoremap <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <leader>gf :YcmCompleter FixIt<CR>
 
 
-nnoremap <leader>pt :FloatermToggle <CR>
+"""nnoremap <leader>pt :FloatermToggle <CR>
+let g:floaterm_keymap_toggle = '<leader>pt'
 
 
